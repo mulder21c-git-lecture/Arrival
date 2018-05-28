@@ -1,0 +1,14 @@
+@import "variables";
+@import "settings";
+@import "mixin";
+
+.content-container{
+  margin: 0 auto;
+
+  @include respond-to(tablet) {
+    max-width: 900px;
+  }
+  @include respond-to(pc) {
+    max-width: 900px;
+  }
+}

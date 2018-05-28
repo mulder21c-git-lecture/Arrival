@@ -1,0 +1,20 @@
+{
+  "name": "git-lecture",
+  "version": "1.0.0",
+  "description": "Git Command Line Interface Study 자료",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "npm list gulp -g || npm install gulp -g"
+  },
+  "author": "mulder21c",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-sass": "^4.0.1",
+    "gulp-watch": "^5.0.0",
+    "gulp-webserver": "^0.9.1"
+  },
+  "dependencies": {}
+}

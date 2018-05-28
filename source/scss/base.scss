@@ -1,0 +1,23 @@
+@import "variables";
+@import "settings";
+@import "mixin";
+@import "component";
+
+body{
+  font-size: $baseFontSize;
+  line-height: $baseLineHeight;
+  color: $extraDark;
+}
+
+h1{
+  @extend %primaryHeading;
+}
+h2{
+  @extend %secondaryHeading;
+}
+h3{
+  @extend %tertiaryHeading;
+}
+h4, h5{
+  @extend %quaternaryHeading;
+}
