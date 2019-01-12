@@ -14,3 +14,7 @@ node_modules/
 
 # Etc..
 dist/
+
+# SASS
+.sass-cache
+*.css.map
