@@ -7,3 +7,10 @@ body{
   margin: 0;
   background: #ffc;
 }
+
+.list > li{
+  list-style: none;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-radius: 3px;
+  padding: 3px;
+}
