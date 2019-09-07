@@ -8,9 +8,20 @@ body{
   background: #ffc;
 }
 
-.list > li{
+.list{
   list-style: none;
+}
+
+.list > li{
+  margin-bottom: 10px;
   background-color: rgba(0, 0, 0, 0.03);
   border-radius: 3px;
   padding: 3px;
+}
+
+.list p{
+  color: #000;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -1px;
 }
