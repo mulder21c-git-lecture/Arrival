@@ -25,3 +25,17 @@ body{
   font-weight: 700;
   letter-spacing: -1px;
 }
+
+.study_info{
+
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 3px;
+}
+
+.info_wrap {
+  padding: 5px;
+
+}
+.info_wrap + .info_wrap{
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
